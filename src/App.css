@@ -1,0 +1,38 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  width: 200px;
+  transition: box-shadow 0.3s;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.product h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.product p {
+  color: #555;
+}
+
+.product:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
